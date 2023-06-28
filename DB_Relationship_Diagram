@@ -1,0 +1,13 @@
+```mermaid
+  erDiagram
+      UNIT {
+        string Name
+        string Points
+      }
+      GAME {
+        string Name
+        string Publisher
+        string BalanceSystem
+      }
+      UNIT ||--|| GAME : Comes from
+```
